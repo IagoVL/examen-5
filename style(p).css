@@ -8,9 +8,9 @@ body {
 	grid-template-rows: 80px 1fr 50px;
 	grid-template-columns: 15% 1fr 18%;
 	grid-gap: 5px;
-  height: 100vh;
-  margin: 10px; 
-  margin: 0;
+    height: 100vh;
+    margin: 10px; 
+    margin: 0;
    padding: 0;
    
    background: #232323;
@@ -20,7 +20,7 @@ body {
 header {
 	background: #707070;
 	grid-area: header;
-    padding: 5px;
+    padding: 0px;
 }
 
 nav {
@@ -130,7 +130,7 @@ footer {
   background: #232323;
 }
 
-/
+
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
